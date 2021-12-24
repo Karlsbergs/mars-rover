@@ -23,7 +23,7 @@ Enter grid size (m x n). Leave space between values, example format [m n]:
 4 8
 ```
 
-Add as many robots as like on a new line:
+Add as many robots as like on a new line after hitting return:
 
 ```
 (2, 3, E) LFRFF
