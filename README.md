@@ -49,3 +49,8 @@ Run the test shell file to run unit tests.
 ```
 ./test.sh
 ```
+
+## What could have been added
+
+* Use Regex for robot build config
+* Logging
