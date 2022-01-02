@@ -18,7 +18,7 @@ var Robots []model.Robot
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	
+
 	// Get grid size
 	gridValues, _ := reader.ReadString('\n')
 
@@ -32,8 +32,8 @@ func main() {
 	for {
 		// Get each robot build config
 		robotBuild, _ := reader.ReadString('\n')
-		robotBuild = strings.Replace(robotBuild, "\r\n", "", -1)
-		
+		robotBuild = strings.Replace(robotBuild, "\n", "", -1)
+
 		if robotBuild == "" {
 			// End receiving new robots
 			break
@@ -63,4 +63,3 @@ func RobotRunCommands() {
 		fmt.Println(result)
 	}
 }
-
