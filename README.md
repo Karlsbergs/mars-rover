@@ -1,5 +1,7 @@
 # Mars Rover
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/graphql-go/graphql.svg)](https://pkg.go.dev/github.com/graphql-go/graphql) 
+
 ## Build and Run the Image
 
 
