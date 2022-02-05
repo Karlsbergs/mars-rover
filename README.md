@@ -56,7 +56,3 @@ Run the test shell file to run unit tests.
 
 * Use Regex for robot build config
 * Logging
-
-::: tip
-sample ...
-:::
